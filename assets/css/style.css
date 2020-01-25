@@ -15,7 +15,7 @@ html,body{
 }
 
 .bg-alpha{
-    background: rgba(0, 0,0,0.5);
+    background: rgba(0, 0, 0, 0.5);
 }
 .border-short-bottom{
     position: relative;
@@ -101,3 +101,16 @@ height: 100%;
     line-height: 90px;
     text-align: center;
 }
+
+/* Section Progress bar */
+.progress-container {
+    width: 100%;
+    height: 5px;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .progress-bar {
+    height: 5px;
+    background: #5f4ad3;
+    width: 0%;
+  }
