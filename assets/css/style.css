@@ -1,9 +1,16 @@
-/* table of content */
-/* 1.Section Settings */
-/* 2.Section Carousel */
-/* 3.Section Blog */
-/* 4.Section footer */
-/* color */
+/* table of content
+/* 1.Section Settings
+/* 2.Section Carousel 
+/* 3.Section Blog
+/* 4.Section footer
+  5.Section Progress bar
+  6.Section Page-title 
+  7.Section timeline
+  8.Section Star 
+
+
+/* color 
+
 /* 1c110a-2b2b2b-fffffc-12355b-d72638 */
 
 /* Color Theme Swatches in Hex 
@@ -87,6 +94,12 @@ body {
 }
 .warpper-card-img img:hover {
   transform: scale(1.2);
+}
+
+.btn-group-custom button{
+  margin-bottom: 1rem;
+  width: 200px;
+
 }
 
 /* Section footer */
