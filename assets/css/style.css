@@ -31,9 +31,11 @@ Color Theme Swatches in RGBA
 html,
 body {
   height: 100%;
-  font-family: "Chonburi", cursive;
+  font-family: "Chonburi", cursive, 'Sarabun', sans-serif;
 }
 
+
+/* ? opacity (0,0,0,0.5) */
 .bg-alpha {
   background: rgba(0, 0, 0, 0.5);
 }
@@ -96,10 +98,34 @@ body {
   transform: scale(1.2);
 }
 
-.btn-group-custom button{
+.btn-group-custom button {
   margin-bottom: 1rem;
   width: 200px;
+}
 
+/* ! rgba (0 0 0 0.5) opacity  */
+.blog-image {
+  padding: 200px 0px 120px;
+  text-align: center;
+  color: antiquewhite;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.blog-contend {
+  padding: 50px 100px;
+  box-shadow: 0px 0px 10px #a5a5aa;
+}
+
+@media (max-width: 991px) {
+  .blog-contend{
+    padding: 30px 50px;
+  }
+}
+/* เมื่อขนาด 768 ให้ทำอะไร */
+@media (max-width: 768px) {
+  .blog-contend {
+    padding: 20px 30px;
+  }
 }
 
 /* Section footer */
